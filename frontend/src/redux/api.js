@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const baseURL = "http://localhost:8080/api";
-const baseURL = "https://note-app-backend-delta.vercel.app/";
+const baseURL = "https://note-app-backend-delta.vercel.app/api";
 
 const API = axios.create({ baseURL: baseURL });
 
